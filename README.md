@@ -45,5 +45,9 @@ The handcrafts page
 <img src ="https://github.com/user-attachments/assets/64fbf082-b855-4d68-b92e-909c80bc7361"  width = "300" height = "300">
 
 The photography page 
-<br>
+
+<be>
+
+for the database, I didn't use a table to fetch  or display from, but used the auth for log-in and sign in. 
+
 
