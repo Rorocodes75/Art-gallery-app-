@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 10, 31, 190),
+        backgroundColor: const Color.fromARGB(255, 234, 242, 212),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -65,6 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                   },
                   child: const Text(
                     "Signin",
+                    style: TextStyle(color:  Colors.black),
                   ),
                 ),
               ],
@@ -90,11 +91,11 @@ class _LoginPageState extends State<LoginPage> {
                 }
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 45, 180, 193),
+                backgroundColor: const Color.fromARGB(255, 248, 237, 237)
               ),
               child: const Text(
                 "Login",
-                style: TextStyle(fontSize: 18),
+                style: TextStyle(fontSize: 18,color:  Colors.black),
               ),
             ),
           ],
